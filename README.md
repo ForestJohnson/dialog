@@ -28,6 +28,12 @@ Asks the user for a directory.
 * Win32: uses MessageBox/GetOpenFileName/GetSaveFileName (via package github.com/TheTitanrain/w32)
 * Linux: uses Gtk's MessageDialog/FileChooserDialog (via package github.com/mattn/go-gtk)
 
+# Debian Packages required for go run to work
+
+```
+libgtk-3-dev libcairo2-dev libpango1.0-dev
+```
+
 # build
 ```
 go mod download
